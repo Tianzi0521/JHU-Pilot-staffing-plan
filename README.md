@@ -6,14 +6,21 @@ To solve the pilot staffing problem,  Our model will determine optimal pilot all
 
 
 Decision variables:
+
 xit: Binary variable indicating whether pilot i is assigned to flight duty at time t (1 if assigned, 0 otherwise)
+
 yi: Binary variable indicating whether pilot i incurs fixed costs (1 if yes, 0 otherwise)
-bi: block hours assigned to pilot i
+
+bi: block hours assigned to pilot I
+
 shortaget: the amount of hours cannot be satisfied at each time period
 
 Input values:
+
 Cit: represents the cost of assigning pilot i to a duty or flight at time t.
+
 Fi:  the fixed cost associated with the pilot i's pay protection or other fixed obligations.
+
 St: the penalty cost per unit of shortage in block hours at time t.
 
 
